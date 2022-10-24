@@ -223,7 +223,7 @@ background-color: #fff;
     color: black;
 }
 #about .photo {
-    background-image: url(/images/image/office4.jpg);
+    background-image: url(/img/image/office4.jpg);
     background-size: cover;
     background-position: center;
     width: 50%;
@@ -242,7 +242,7 @@ background-color: #fff;
     width: 100%;
     height: 450px;
     /* background-image:linear-gradient(rgba(32, 114, 237, 0.694),hsla(219, 98%, 63%, 0.745)),url(img/map3.jpg);  */
-background-image: url(/images/image/a14.jpeg);
+background-image: url(/img/image/a14.jpeg);
     background-size: cover;
     background-position:center;
    padding: 2vw 8vw 2vw 8vw;
@@ -461,7 +461,7 @@ transition: all ease-in-out 0.4s;
     padding: 0 8vw 0 8vw;
     width: 100%;
     height: 500px;
-    background-image:linear-gradient(rgba(45, 45, 47, 0.946),rgba(54, 54, 56, 0.358)),url(/images/image/share\ idea.jpg); 
+    background-image:linear-gradient(rgba(45, 45, 47, 0.946),rgba(54, 54, 56, 0.358)),url(/img/image/share\ idea.jpg); 
     background-size:cover ;
     background-position: center;
     display: flex;
@@ -1397,7 +1397,7 @@ transition: all ease-in-out 0.4s;
 #middle-contact .image{
     width: 50%;
     height: 100%;
-    background-image: url(/images/image/businesswoman.jpg);
+    background-image: url(/img/image/businesswoman.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -1638,7 +1638,7 @@ transition: all ease-in-out 0.4s;
 .banner-about{
     width: 100%;
     height: 350px;
-    background-image: url(/images/image/lap5.jpg);
+    background-image: url(/img/image/lap5.jpg);
     background-position: top;
     background-size: cover;
     position: relative;
@@ -1847,7 +1847,7 @@ transition: all ease-in-out 0.4s;
     width: 100%;
     height: 650px;
     margin-top: 0px;
-    background-image: url(/images/image/buisiness\ people.jpg);
+    background-image: url(/img/image/buisiness\ people.jpg);
     background-size: cover;
     background-position: top;
 
@@ -2093,7 +2093,7 @@ transition: all ease-in-out 0.4s;
     width: 100%;
     height: 800px;
     background-size: cover;
-    background-image: url(/images/image/blue.jpg);
+    background-image: url(/img/image/blue.jpg);
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -2399,7 +2399,7 @@ transition: all ease-in-out 0.4s;
 #middle-bannr{
     width: 100%;
     height: 650px;
-    background-image: url(/images/image/blue.jpg);
+    background-image: url(/img/image/blue.jpg);
     background-size: cover;
     background-position: center;
     padding: 0vw 8vw 0vw 8vw;
@@ -2535,7 +2535,7 @@ transition: all ease-in-out 0.4s;
 }
 #middle-bannr {
     height: 1200px;
-    background-image: url(/images/image/12767.jpg);
+    background-image: url(/img/image/12767.jpg);
     background-size: cover;
     background-position: center;
     padding: 0vw 8vw 0vw 8vw;
