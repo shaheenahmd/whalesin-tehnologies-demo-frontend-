@@ -1008,7 +1008,7 @@ transition: all ease-in-out 0.4s;
 /* ---mobile responsive--homepage--------------------------------------------------------------- */
 /* ---mobile responsive--homepage--------------------------------------------------------------- */
 
-@media screen and (min-width:320px) and (max-width:480px){
+@media screen and (min-width:320px) and (max-width:440px){
   
     nav .navigation ul{
         position: fixed;
@@ -1051,16 +1051,16 @@ transition: all ease-in-out 0.4s;
  
    
     #home {
-        height: 950px;
+        height: 900px;
         width: 100%;
         flex-direction: column;
         text-align: center;
     }
     #home h1 {
       
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         line-height: 40px;
-        min-width: 370px;
+        min-width: 350px;
         word-spacing: 10px;
         margin-left: -70px;
         margin-top: 400px;
@@ -1069,17 +1069,17 @@ transition: all ease-in-out 0.4s;
   
     #home p {
         color: #fff;
-        font-size: 18px;
+        font-size: 16px;
         padding-top: 50px;
-        min-width: 450px;
+        min-width: 420px;
         margin-bottom: 40px;
-        margin-left: -180px;
+        margin-left: -170px;
      
     }
     #home .btn1 {
         width: 90px;
         height: 30px;
-        margin-left: 0px;
+        margin-left: 20px;
     }
     #home .btn1 a {
         text-decoration: none;
@@ -1516,7 +1516,7 @@ transition: all ease-in-out 0.4s;
 
 
 /* -------------responsive contact-page ------------------------*/
-@media screen and (min-width: 320px) and (max-width:480px){
+@media screen and (min-width: 320px) and (max-width:440px){
   
 
     #home-contact {
@@ -1558,7 +1558,7 @@ transition: all ease-in-out 0.4s;
         border-radius: 10px;
         height: 30px;
         margin-top: 30px;
-        margin-left: 130px;
+        margin-left: 120px;
         
        
     }
@@ -1574,13 +1574,13 @@ transition: all ease-in-out 0.4s;
     }
     #home-contact h2 {
         font-size: 40px;
-        max-width: 500px;
+        max-width: 350px;
         margin-bottom: 40px;
         line-height: 50px;
         
     }    
     #home-contact .smpara {
-        max-width: 400px;
+        max-width: 350px;
         font-size: 18px;
     }
 
@@ -1604,9 +1604,9 @@ transition: all ease-in-out 0.4s;
     #middle-contact .btn {
         width: 100px;
         height: 35px;
-        margin-left: 250px;
-
+       
     }
+    
 
     .footerA {
         margin-top: 80px;
@@ -1715,9 +1715,9 @@ transition: all ease-in-out 0.4s;
     font-size: 16px;
 }
 
-@media screen and (min-width:320px) and (max-width:480px){
+@media screen and (min-width:320px) and (max-width:440px){
     #home-about {
-        height: 1100px;
+        height: 1250px;
         padding: 0 8vw 0vw 8vw;
         flex-direction: column;
 
@@ -1729,15 +1729,15 @@ transition: all ease-in-out 0.4s;
     }
     #home-about .heading h1 {
         padding-top: 120px;
-        font-size: 1.6rem;
-        min-width: 400px;
-        margin-left: 0px;
+        font-size: 1.5rem;
+        max-width: 350px;
+        margin-left: 30px;
         color: #168fcd;
         line-height: 45px;
     }
     #home-about .para{
-        margin-top: 0px;
-        min-width: 450px;
+        margin-top: 40px;
+        min-width: 380px;
         margin-bottom: 100px;
         margin-left: -50px;
     }
@@ -1757,6 +1757,12 @@ transition: all ease-in-out 0.4s;
         font-size: 30px;
         line-height: 40px;
        
+    }
+    #team {
+        padding: 0vw 8vw 0vw 8vw;
+       
+        height: 1850px;
+        margin-top: 30px;
     }
     
 }
@@ -1967,21 +1973,21 @@ transition: all ease-in-out 0.4s;
 }
 /* career responsive----------------------------------------------------- */
 /* career responsive----------------------------------------------------- */
-@media screen and (min-width:320px) and (max-width:480px){
+@media screen and (min-width:320px) and (max-width:440px){
     #hero-careers{
         height: 550px;
     }
     #hero-careers h1 {
         top: 130px;
         font-size: 1.6rem;
-        max-width: 380px;
+        max-width: 350px;
         line-height: 40px;
        
     }  
     #hero-careers p {
         top: 300px;
         font-size: 16px;
-        max-width: 400px;
+        max-width: 350px;
         line-height: 27px;
     }
     #hero-careers button{
@@ -2221,7 +2227,7 @@ transition: all ease-in-out 0.4s;
 
 
 /* -------------responsive service-page ------------------------*/
-@media screen and (min-width: 320px) and (max-width:480px){
+@media screen and (min-width: 320px) and (max-width:440px){
     #service-page-top {
         height: 500px;
       
@@ -2233,9 +2239,9 @@ transition: all ease-in-out 0.4s;
 
     #services-page {
         flex-direction: column;
-        padding: 0vw 8vw 0px;
+        padding: 0vw 8vw 0px 8vw;
         width: 100%;
-        height: 4000px;
+        height: 3750px;
        
     }
     #services-page p {
@@ -2250,7 +2256,7 @@ transition: all ease-in-out 0.4s;
         font-size: 12px;
     }
     #services-page .card {
-        padding-top: 40px;
+        padding-top: 0px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-gap: 30px;
@@ -2470,7 +2476,7 @@ transition: all ease-in-out 0.4s;
 }
 
 
-@media screen and (min-width: 320px) and (max-width:480px){
+@media screen and (min-width: 320px) and (max-width:440px){
     /* web-dev-page */
     #web-dev-page-hero {
      width: 100%;
@@ -2501,20 +2507,20 @@ transition: all ease-in-out 0.4s;
  #web-dev-page-hero .content p {
      margin-top: 30px;
      font-size: 15px;
-     max-width: 400px;
+     max-width: 350px;
      padding-left: 0px;
  }
  /* ------------ */
  #web-dev-page-hero2 {
      width: 100%;
-     height: 1050px;
+     height: 1150px;
      display: flex;
      flex-direction: column;
      padding: 2vw 8vw 2vw 8vw;
      padding-top: 0px;
  }
  #web-dev-page-hero2 .image{
-     width: 90%;
+     width: 80%;
      margin-top: 50px;
      margin-right: 80px;
  }
@@ -2533,7 +2539,7 @@ transition: all ease-in-out 0.4s;
      font-size: 1.6rem;
      line-height: px;
      margin-left: -35px;
-     min-width: 420px;
+     min-width: 350px;
      margin-bottom: 50px;
     
      
@@ -2541,7 +2547,7 @@ transition: all ease-in-out 0.4s;
  #web-dev-page-hero2 .content p {
      margin-top: 60px;
      font-size: 15px;
-     max-width: 400px;
+     max-width: 350px;
      padding-left: 0px;
  }
  
@@ -2563,15 +2569,22 @@ transition: all ease-in-out 0.4s;
     text-align: center;
     margin: 0 auto;
     line-height: 55px;
+    max-width: 350px;
 }
 #web-dev-page-hero3 .image {
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 #web-dev-page-hero3 .image img {
     margin-top: 15px;
-    margin-left: -70px;
+    margin-left: -120px;
     height: 340px;
+}
+#web-dev-page-hero3 .content p {
+    margin-top: 30px;
+    font-size: 16px;
+    max-width: 350px;
+    padding-left: 9px;
 }
 #middle-bannr {
     height: 1100px;
@@ -2734,7 +2747,7 @@ transition: all ease-in-out 0.4s;
     margin-left: 0px;
    
 }
-@media screen and (min-width: 320px) and (max-width:480px){
+@media screen and (min-width: 320px) and (max-width:440px){
    
     #mob-dev-page-hero {
         height: 950px;
@@ -3049,7 +3062,7 @@ transition: all ease-in-out 0.4s;
 }
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:440px) {
    
     #digi-market-page-hero {
         width: 100%;
@@ -3140,7 +3153,7 @@ transition: all ease-in-out 0.4s;
         height: 370px;
     }
 
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:440px) {
 
         #branding-page-hero {
             width: 100%;
